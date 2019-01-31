@@ -11,9 +11,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo42.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo44.png" type="image/x-icon">
   <meta name="description" content="">
-  <title>JAIS, Accounting & Tax Consultancy</title>
+  <title> JAIS, Accounting & Tax Consultancy</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -22,20 +22,39 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  <!-- for menu icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 <body>
  <section>
-		<div class="navbbar">
-		  <a href="#home">Home</a>
+		<!-- Menu Bar -->
+		<div class="navbbar" id="myTopnav">
+		  <a href="#home"class="active">Home</a>
 		  <a href="#Services">Services</a>
 		  <a href="#WhyChooseuse">Why Choose use</a>
 		  <a href="#footer1">Contact</a>
-			<div class="contactinfo">
-				<p>Contact#: 0300-588-28-99</p>
-			</div>
-    </form>
-  </div>
+
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+
+			 
 		</div>
+		 
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "navbbar") {
+				x.className += " responsive";
+			  } else {
+				x.className = "navbbar";
+			  }
+			}
+		</script>
+		 
 		 
   <section class="header12 cid-rgx9isBJib mbr-fullscreen mbr-parallax-background" id="home">
   <div
@@ -49,23 +68,36 @@
                         <font face="Stencil" color="white"> JAIS </font>
                     </h1>
                     <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">
-                        Accounting & Tax Consultancy
+                        Accounting & Tax Consultancy <br>
+                        (0300-588-28-99)<br>
+                        (WhatsApp: 0314-32-11-965)<br>
+						(jais.helpline@gmail.com) <br>
                     </p>
+
                     <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-6">
+						
 					    For years we have been bringing our clients professionalism and responsibility in the management of accounting.<p>
+                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">
+						 <br>
+						Services We Offer 
+                    </p>
+
                     <div class="mbr-section-btn align-center py-2">
+                        <a class="btn btn-md btn-secondary display-4" href="#IncomeTax">Income Tax</a>
+                        <a class="btn btn-md btn-secondary display-4" href="#SalesTax">Sales Tax</a>
                         <a class="btn btn-md btn-secondary display-4" href="#Bookkeeping">Bookkeeping</a>
                         <a class="btn btn-md btn-secondary display-4" href="#Accountancy">Accountancy</a>
-                        <a class="btn btn-md btn-secondary display-4" href="#TaxAssistance">Tax Assistance</a>
+                        <a class="btn btn-md btn-secondary display-4" href="#TaxAssistance">Tax Consultancy </a>
+                        <a class="btn btn-md btn-secondary display-4" href="#Corporate">Corporate</a>
+                        <a class="btn btn-md btn-secondary display-4" href="#GeneralServices">General Services</a>
                     </div>
                 </div>
             </div>
     </div>
 	
-
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
+        <a href="#WhyChooseuse">
+            <i class="mbri-down mbr-iconfont"></i>  
         </a>
     </div>
 </section>
@@ -89,11 +121,16 @@
 		<li>Remind you of key filing dates and maintain a log to ensure you do not suffer late filing penalties</li>
 		<li>Give practical help and advise to ensure you achieve success and profit in practice</li>
 		<li>Help in Optimization of business processes. (supervision of accounting procedures)</li>
-		<li>We save your time</li>
+		<li>Save your time</li>
 		</ul>
-        <div>
+        </div>
 		
+	<div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#Services">
+            <i class="mbri-down mbr-iconfont"></i>  
+        </a>
     </div>
+
 </section>
 
 
@@ -102,6 +139,27 @@
 
     <div class="container pt-4 mt-2">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Our Services?</h2>
+        <h3 ID="IncomeTax">
+            Income Tax 
+        </h3>
+		<ul>
+		<li>NTN Registration (Individuals, AOP and Companies)</li>
+		<li>E-Filling of Income Tax Returns</li>
+		<li>E-Filling of Wealth Statement</li>
+		<li>E-Filling of Withholding statement</li>
+		<li>Compliance of Notices</li>
+		<li>Active status in Income Tax FBR - ATL (active taxpayer list)<li>
+		</ul>
+
+        <h3 ID="SalesTax">
+            Sales Tax
+        </h3>
+		<ul>
+		<li>Sales Tax Registration</li>
+		<li>Monthly E-Filling of Returns</li>
+		<li>Compliance of Notices</li>
+		</ul>
+
         <h3 ID="Bookkeeping">
             Bookkeeping 
         </h3>
@@ -109,7 +167,6 @@
 		<li>Complete computerised bookkeeping service at clients premises as well as from our offices</li>
 		<li>We will set up bookkeeping systems for clients and operate a number of accounting softwares</li>
 		<li>Monthly management accounts and reports automatically provided</li>
-		<li>Sales Tax Return prepared</li>
 		</ul>
 
 		<h3 ID="Accountancy">
@@ -130,7 +187,38 @@
 		<li>Tax investigations including dealing with Special Compliance office.</li>
 		<li>Tax related advice on investments.</li>
 		</ul>		
-		
+
+		<h3 ID="Corporate">
+            Corporate & Secretarial Practices 
+        </h3>
+		<ul>
+		<li>Formation of Corporation</li>
+		<li>E-Filing / Filing of SECP Returns</li>
+		<li>Compliance to SECP</li>
+		</ul>		
+
+		<h3 ID="GeneralServices">
+            Other General Services
+        </h3>
+		<ul>
+		<li>Appeals</li>
+		<li>Internal Audit</li>
+		<li>WEBOC registration</li>
+		<li>Refund Applications</li>
+		<li>Preparation of Gift Deed</li>
+		<li>Taxpayer Profile Updation</li>
+		<li>Preparation of Partnership Deed</li>
+		<li>Chamber of Commerce Registration</li>
+		<li>Copyrights & Trademark Registration</li>
+		<li>Services for domain, web-hosting, website design</li>
+		<li>SMS Marketing Services</li>
+		<li>E-Filing of Monthly Sales Tax Returns (FBR, PRA & SRB)</li>
+    </div>
+	
+	<div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#footer1">
+            <i class="mbri-down mbr-iconfont"></i>  
+        </a>
     </div>
 </section>
 
@@ -155,7 +243,7 @@
                     Address
                 </h5>
                 <p class="mbr-text">
-					JAIS Associates <br>
+					<font face="Stencil" color="white">JAIS</font> Associates <br>
                     Road <br>
 					Karachi
                 </p>
@@ -165,10 +253,11 @@
                     Contacts
                 </h5>
                 <p class="mbr-text">
-                    Email: mohd.javed.iqball@gmail.com <br>
+                    Email: jais.helpline@gmail.com <br>
+					mohd.javed.iqball@gmail.com 
 					Phone: <br>
 					( 1 ): 0300-588-28-99 <br>
- 					( 2 ): 0300-32-11-965 <br>     
+ 					( 2 ): 0314-32-11-965 (WhatsApp) <br>     
 					( 3 ): 0333-77-888-53
                 </p>
             </div>
